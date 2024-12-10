@@ -12,8 +12,10 @@
 
 ```bash
 This project using nestjs and typescript with prisma ORM. I used postgres for database and pack in docker both db and service
+(I usually write c# all the way. So this project is my pure self learning and experimental)
 Get transaction api between 2 user can't be use due to prisma bug (That I can't resolve).
-Authentication implementation is completed. We can get token from login but I have a issue about auth guard (in c# .Net we use require autorization above controller. That's it).
+Authentication implementation is completed.
+We can get token from login but I have a issue about auth guard (in c# .Net we use require autorization above controller. That's it).
 
 Api path
 - Login
